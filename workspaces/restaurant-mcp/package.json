@@ -1,0 +1,21 @@
+{
+  "name": "@restaurant-ai/restaurant-mcp",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc src/index.ts --outDir dist --skipLibCheck",
+    "fix": "biome check --write ./src",
+    "check": "biome check ./src"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+		"dotenv": "^16.5.0",
+		"picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3",
+    "zod": "^3.24.2"
+  }
+}
